@@ -4,16 +4,16 @@ import { styles } from "@/styles/meus-estilos";
 const BenefitsSection = () => {
   const benefits = [
     {
-      icon: GraduationCap,
-      title: "Professores Nativos",
-      description: "Aprenda com quem vive o idioma diariamente. Todos os nossos professores são nativos e certificados.",
-      color: "text-primary",
-    },
-    {
       icon: Calendar,
       title: "Aulas Flexíveis",
       description: "Escolha os melhores horários para você. Aulas ao vivo, gravadas e suporte 24/7.",
       color: "text-secondary",
+    },
+    {
+      icon: GraduationCap,
+      title: "Professores Nativos",
+      description: "Aprenda com quem vive o idioma diariamente. Todos os nossos professores são nativos e certificados.",
+      color: "text-primary",
     },
     {
       icon: Globe,
@@ -65,11 +65,11 @@ const BenefitsSection = () => {
         {/* Stats Bar */}
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 p-8 bg-gradient-to-r from-primary/10 via-accent/10 to-secondary/10 rounded-2xl">
           <div className="text-center">
-            <div className={`text-4xl font-bold ${styles.textGradient}`}>10+</div>
+            <div className={`text-4xl font-bold ${styles.textGradient}`}>5+</div>
             <div className="text-sm text-muted-foreground mt-1">Anos de Experiência</div>
           </div>
           <div className="text-center">
-            <div className={`text-4xl font-bold ${styles.textGradient}`}>50+</div>
+            <div className={`text-4xl font-bold ${styles.textGradient}`}>80+</div>
             <div className="text-sm text-muted-foreground mt-1">Professores Certificados</div>
           </div>
           <div className="text-center">
