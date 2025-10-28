@@ -39,6 +39,15 @@ const CoursesSection = () => {
       flag: "🇩🇪",
       color: "from-yellow-500 to-red-600",
     },
+    {
+      title: "Japonês",
+      description: "Aprenda japonês do básico ao avançado com foco em cultura e certificação JLPT.",
+      level: "N5 - N1",
+      duration: "6-24 meses",
+      students: "1.2k alunos",
+      flag: "🇯🇵",
+      color: "from-red-500 to-white-700",
+    },
   ];
 
   return (
