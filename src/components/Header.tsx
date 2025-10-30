@@ -47,24 +47,25 @@ const Header = () => {
 
           {/* Theme Toggle & CTA Button Desktop */}
           <div className="hidden md:flex items-center gap-3">
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors duration-200"
-              aria-label="Toggle theme"
-            >
-              {theme === "dark" ? (
-                <Sun className="w-5 h-5 text-foreground" />
-              ) : (
-                <Moon className="w-5 h-5 text-foreground" />
-              )}
-            </button>
-            <button 
-              className={styles.btnPrimary}
-              onClick={() => setIsEnrollmentOpen(true)}
-            >
-              Matricule-se
-            </button>
-          </div>
+  <button 
+    className={styles.btnPrimary}
+    onClick={() => setIsEnrollmentOpen(true)}
+  >
+    matricular
+  </button>
+  <button
+    onClick={toggleTheme}
+    className="p-2 rounded-lg bg-muted hover:bg-muted/80 transition-colors duration-200"
+    aria-label="Toggle theme"
+  >
+    {theme === "dark" ? (
+      <Sun className="w-5 h-5 text-foreground" />
+    ) : (
+      <Moon className="w-5 h-5 text-foreground" />
+    )}
+  </button>
+</div>
+
 
           {/* Mobile Menu Button */}
           <button
@@ -107,7 +108,7 @@ const Header = () => {
                   className={`flex-1 ${styles.btnPrimary}`}
                   onClick={() => setIsEnrollmentOpen(true)}
                 >
-                  Matricule-se
+                  matricular
                 </button>
               </li>
             </ul>
