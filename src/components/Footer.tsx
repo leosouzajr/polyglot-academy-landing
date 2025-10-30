@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Youtube, Instagram, Linkedin } from "lucide-react";
 import { styles } from "@/styles/meus-estilos";
 
 const Footer = () => {
@@ -78,10 +78,10 @@ const Footer = () => {
             <div className="flex gap-3">
               <a
                 href="#"
-                className="w-10 h-10 rounded-lg bg-primary/10 hover:bg-primary text-primary hover:text-white flex items-center justify-center transition-all duration-300"
-                aria-label="Facebook"
+                className="w-10 h-10 rounded-lg bg-destructive/10 hover:bg-destructive text-destructive hover:text-white flex items-center justify-center transition-all duration-300"
+                aria-label="YouTube"
               >
-                <Facebook size={20} />
+                <Youtube size={20} />
               </a>
               <a
                 href="#"
@@ -96,13 +96,6 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 rounded-lg bg-destructive/10 hover:bg-destructive text-destructive hover:text-white flex items-center justify-center transition-all duration-300"
-                aria-label="YouTube"
-              >
-                <Youtube size={20} />
               </a>
             </div>
           </div>
