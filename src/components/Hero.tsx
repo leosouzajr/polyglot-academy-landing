@@ -16,17 +16,17 @@ const Hero = () => {
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-6">
             <div className={styles.badge}>
-              🌍 Aprenda idiomas de forma inteligente
+              🌍 Aperfeiçoe seus idiomas de forma estratégica
             </div>
             
             <h1 className={styles.h1}>
-              Domine Novos Idiomas com{" "}
-              <span className={styles.textGradient}>Confiança</span>
+              Domine Novas Línguas com{" "}
+              <span className={styles.textGradient}>Determinação</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Transforme sua carreira e conecte-se com o mundo. Aprenda com professores nativos, 
-              metodologia comprovada e horários flexíveis que se adaptam à sua rotina.
+              Impulsione sua carreira e amplie suas conexões globais. Conte com professores nativos,
+              metodologia reconhecida e flexibilidade total para aprender no seu tempo.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
