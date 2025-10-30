@@ -49,12 +49,12 @@ const CoursesSection = () => {
           <div className={`${styles.badge} mx-auto`}>
             📚 Nossos Cursos
           </div>
-          <h2 className={styles.h2}>
+          <h2 className={styles.textGradient}>
             Escolha Seu <span className={styles.textGradient}>Idioma</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Cursos estruturados do nível básico ao avançado, com metodologia comprovada 
-            e professores especializados em cada idioma.
+            Cursos de Idiomas Estruturados (Básico ao Avançado). Aprenda com uma metodologia de eficácia comprovada
+            e conte com o apoio de professores especialistas para alcançar sua fluência.
           </p>
         </div>
 
